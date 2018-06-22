@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <co.newsbullet.android.particle.view.ParticleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dots_count="50"
+        app:line_draw_distance="180dp"
+        app:max_radius="6dp"
+        app:max_speed="5"
+        app:min_radius="2dp"
+        app:min_speed="3" />
+</FrameLayout>

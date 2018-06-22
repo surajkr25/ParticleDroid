@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="KaustrTextView">
+        <attr name="fontStyle" format="enum">
+            <enum name="exobold" value="1" />
+            <enum name="exosemi" value="2" />
+            <enum name="exolight" value="3" />
+            <enum name="ralewayreg" value="4" />
+            <enum name="ralewaylight" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandablePanel">
+        <attr name="panel_handle" format="reference" />
+        <attr name="panel_content" format="reference" />
+        <attr name="panel_collapsedHeight" format="dimension" />
+        <attr name="panel_animationDuration" format="integer" />
+        <attr name="panel_collapse_text" format="string" />
+        <attr name="panel_expand_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ParticleView">
+        <attr name="min_speed" format="integer" />
+        <attr name="max_speed" format="integer" />
+        <attr name="max_radius" format="dimension" />
+        <attr name="min_radius" format="dimension" />
+        <attr name="line_draw_distance" format="dimension" />
+        <attr name="dots_count" format="integer" />
+        <attr name="color_set" format="reference" />
+    </declare-styleable>
+
+</resources>
